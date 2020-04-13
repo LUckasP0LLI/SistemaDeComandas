@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta lang="PT-BR">
+<style>
+ body{
+    margin: 0px;
+    padding: 0px;
+    
+    width: 1500px; /*1311*/
+    height: 626px; /*626*/
+ }
+form{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto 0 auto;
+}
+#form input{
+    width: 50%;
+    border: #666666 solid 2px;
+    float: left;
+    clear: both;
+    padding: 12px;
+    margin: 12px;
+}
+
+#form #radiobtn h1{
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-style: normal;
+    width: 300px;
+    height: 50%;
+    
+}
+#shadow input{
+    box-shadow:2px 5px;
+    color:black; 
+
+}
+#central{
+    margin:0 auto 0 auto;
+    width: 600px; 
+    height: 100px;
+    font-family:Helvetica, sans-serif;
+    color: black;
+}
+
+</style>
+</head>
+<body>
+        <div id="central">
+                <h1>Login:</h1>
+            </div>
+    </div>
+        <div id="form">
+        <form action="login.php" method="POST">
+            <div id="shadow">
+            <p><input type="text" placeholder="Nome" required name="nomelog"></p>
+            <p><input type="password" placeholder="Senha" required name="passlog"></p>
+        </div>
+        
+                <input type="submit" value="Enviar">
+            </div>
+            </form>
+</body>
+
+
+</html>
